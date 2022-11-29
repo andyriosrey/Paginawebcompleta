@@ -1,0 +1,222 @@
+
+*{
+  
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box bottom 1329px;
+}
+.iniciopag{
+    height: 25.65cm;
+    width: 100%;
+    background-image: url(../imagenes/fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+} 
+.titulo{
+    color:rgb(252, 218, 105);
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgba(166, 206, 243, 0.993);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(231, 231, 108);
+}
+.boton{
+    background-color: rgba(114, 137, 158, 0.993);
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.seccion{
+    
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+.seccion h1{
+    color:rgb(252, 218, 105);
+    margin: 20px 0px 20px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.seccion article{
+    color: rgb(182, 216, 248);
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+.seccion aside{
+    color: rgb(215, 233, 250);
+    margin-bottom: 45px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.seccion span{
+    font-weight: bolder;
+    color:rgb(235, 230, 165);
+}
+footer{
+    font-weight: bold;
+    font-style: italic;    
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(114, 137, 158, 0.993);
+    color:rgb(252, 218, 105);
+    display: flex;
+    font-size: medium;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comodarletrasarriba{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.acomodarlogos{
+    position: absolute;
+    top: 40%;
+    left: 4%; 
+}
+.acomodarcuadro{
+    position: absolute;
+    top: 40%;
+   left: 50%;
+    width: 40%;
+}
+.contact{
+    font-size: large;
+    bottom: 71%;
+    right: 45%;
+    position: absolute;
+    justify-content: column;
+    align-items: center;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(160, 223, 252);
+}
+.contact .content p{
+    font-weight: 300;
+    color: rgb(226, 218, 175);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    left: 3cm;
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(152, 211, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(238, 225, 170);
+    flex-direction:column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: rgb(123, 202, 233);
+}
+.contactForm{
+    border-radius: 4%;
+    width: 100%;
+    padding: 40px;
+    background: rgba(39, 76, 82, 0.466);
+}
+.contactForm h2{
+    font-size: 30px;
+    color: rgb(247, 221, 138);
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px 0;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: relative;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+    {
+    color: antiquewhite;
+    font-size: 12px;
+    transform: translate(-20px);
+}
